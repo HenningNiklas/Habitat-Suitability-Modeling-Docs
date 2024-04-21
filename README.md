@@ -177,12 +177,19 @@ General process:
 ### Code Diagram Package Overview 
 ![package_ulm_overview](images/ulm_package_overview.PNG)
 
-
+*Complete ulm code diagram pdf available in the images directory 
+*images/full_ulm_code_diagram.pdf*
 ## Modules 
-
-### scripts
+- scripts.py
+- config.py
+- tools pkg
+- hsi_raster pkg
+### scripts.py
 #### function list
-run_hsi_raster_generator(),run_bioverifier_observation_chsi_analysis(),run_complete_hsi_habitat_binning()
+- run_hsi_raster_generator()
+- run_bioverifier_observation_chsi_analysis()
+- run_hsi_habitat_evaluation()
+- run_complete_hsi_habitat_binning()
 #### scripts ulm overview
 ![scripts_ulm_overview](images/ulm_scripts.PNG)
 #### run_hsi_raster_generator()
@@ -362,7 +369,13 @@ run_hsi_raster_generator(),run_bioverifier_observation_chsi_analysis(),run_compl
     """
 ### hsi_raster
 #### moduls list
-flusstools_geotools_functions,hsi_raster_fun,raster,raster_hsi
+- flusstools_geotools_functions
+- hsi_raster_fun
+- raster 
+- raster_hsi
+#### hsi_raster code diagram
+![hsi_raster_ulm](images/hsi_raster_pkg_ulm.PNG)
+
 #### flusstools_geotools_functions
     def open_raster(file_name, band_number=1):
         """Opens a raster file and accesses its bands.
@@ -518,7 +531,14 @@ flusstools_geotools_functions,hsi_raster_fun,raster,raster_hsi
 
 ### tools
 #### module list
-binning,bio_evaluation_fun,bio_tools,bioverification_fun,fun,input_data_testing,visualization
+- binning,bio_evaluation_fun
+- bio_tools
+- bioverification_fun
+- fun
+- input_data_testing
+- visualization
+#### tools code diagram
+![tools_pkg_ulm](images/ulm_tools_pkg.PNG)
 #### binning
     def labler(thresholds,hsi):
         """"
@@ -793,7 +813,7 @@ binning,bio_evaluation_fun,bio_tools,bioverification_fun,fun,input_data_testing,
         :return none
         """
 
-#### tools Code Diagram
+
 
 
 
