@@ -13,6 +13,14 @@ _Python Libraries:_  numpy, pandas, json, matplotlib, tkinter, bisect,time,sciki
 
 _Standard Libraries:_ os, logging, random, shutil, string
 
+### Main Script Commands 
+Complete Run: run_complete_hsi_habitat_binning()
+Partial Run: 
+Generates hsi rasters: run_hsi_raster_generator()
+Compares Observation with chsi raster,Generates randomly picked datasets: run_bioverifier_observation_chsi_analysis()
+Evaluates Observation Data, Bootstrap bin threshold generation,Generates Habitat Quality map: run_hsi_habitat_evaluation()
+
+More detail description in scripts section:
 ### Input Data
 
 The following data must be provided to run the code for each step:
@@ -107,7 +115,7 @@ ex. 1000 observations (selected bin resolution 0.05) or 100 observations (select
 #### Example input data
 Example fictional inputs can be found in the *example_input* folder. 
 This data is used as en example in to show a complete run in the *example_run.py* python file.
-After pip installing the habitatsutiability package run the example file to see the example outputs.
+After pip installing the habitat-sutiability package run the example file to see the example outputs.
 
 ### Outputs
 1. hsi raster for each parameter
