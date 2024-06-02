@@ -6,7 +6,7 @@ Habitat Suitability Modeling to generate HSI rasters, HSI Observation Data Evalu
 ### Installation 
 In your preferred python environment 
 
-pip install habitatsuitability 
+pip install habitat-suitability
 
 ### Libraries
 _Python Libraries:_  numpy, pandas, json, matplotlib, tkinter, bisect,time,scikit-learn,csv,GDAL,statistics
