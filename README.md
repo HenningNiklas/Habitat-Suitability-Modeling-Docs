@@ -6,6 +6,11 @@ Habitat Suitability Modeling to generate HSI rasters, HSI Observation Data Evalu
 ### Installation 
 In your preferred python environment 
 
+Follow the instuctions on 
+https://hydro-informatics.com/python-basics/pyinstall.html
+to install gdal
+
+
 pip install habitat-suitability
 
 ### Libraries
