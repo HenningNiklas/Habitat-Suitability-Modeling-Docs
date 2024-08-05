@@ -8,7 +8,7 @@ In your preferred python environment
 
 Follow the instuctions on 
 https://hydro-informatics.com/python-basics/pyinstall.html
-to install gdal
+to install Gdal
 
 
 pip install habitat-suitability
